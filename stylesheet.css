@@ -2,7 +2,7 @@
   width: 100%;
   margin: 0px;
   font-family: "proxima-nova", Helvetica, sans-serif;
-  font-size: 17px;
+  font-size: 18px;
   padding: 0px;
   margin: 0px;
 }
@@ -10,6 +10,7 @@
 p {
   line-height: 1.5em;
   color: #666;
+  font-family: Georgia;
 }
 
 #right img {
@@ -94,7 +95,7 @@ p {
 
 h2 {
   font-family: sans-serif;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #dedede;
 }
 
 #thread {
@@ -134,7 +135,7 @@ h2 {
   color: #999;
 }
 
-#thread #inline ul li {
+#inline ul li {
   display: inline;
   position: relative;
   top: 2px;
@@ -149,6 +150,10 @@ h2 {
 }
 
 
+#left h2 {
+  padding-left: 5px;
+}
+
 #left {
   float: left;
   position: relative;
@@ -156,6 +161,23 @@ h2 {
   width: 60%;
   min-width: 580px;
   padding-left: 20px;
+}
+
+.listing ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.listing ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 100%;
+  font-family: Georgia;
+}
+
+#right h2 {
+  padding-left: 5px;
 }
 
 #right {
@@ -166,3 +188,53 @@ h2 {
   width: 30%;
   min-width: 250px;
 }
+
+form {
+  position: relative;
+  top: 20px;
+  margin-left: 20px;
+  width: 500px;
+}
+
+input, textArea {
+  width: 439px;
+  height: 27px;
+  background: #efefef;
+  border: 1px solid #dedede;
+  padding: 10px;
+  margin-top: 3px;
+  font-size: 0.9em;
+  color: #3a3a3a;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+input:hover, textarea:hover {
+  border: 1px solid #97d6eb;
+}
+
+#submit {
+  width: 127px;
+  height: 38px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+#submit:hover {
+  opacity: 0.9;
+}
+
+textarea {
+  height: 213px;
+}
+
+
+label {
+  display: block;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
